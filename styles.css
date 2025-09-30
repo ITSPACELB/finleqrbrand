@@ -876,6 +876,14 @@ body {
   opacity: 1;
 }
 
+@media (min-width: 769px) {
+  .contact-grid {
+    justify-content: flex-start !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+}
+
 .physics-moon {
   position: fixed;
   width: 32px;
