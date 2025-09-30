@@ -876,14 +876,6 @@ body {
   opacity: 1;
 }
 
-@media (min-width: 769px) {
-  .contact-grid {
-    justify-content: flex-start !important;
-    margin-left: 0 !important;
-    margin-right: auto !important;
-  }
-}
-
 .physics-moon {
   position: fixed;
   width: 32px;
@@ -1115,6 +1107,13 @@ body {
   width: auto;
   max-width: 90%;
   z-index: 141;
+}
+
+@media (min-width: 769px) {
+  .email-content-wrapper {
+    left: 20%;  /* يحركها لليسار */
+    transform: translate(0, -50%);  /* يلغي التوسيط الأفقي */
+  }
 }
 
 .contact-message {
