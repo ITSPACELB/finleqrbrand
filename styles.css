@@ -1100,22 +1100,22 @@ body {
 }
 
 .email-content-wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: auto;
-  max-width: 90%;
-  z-index: 141;
-}
-
-@media (min-width: 769px) {
-  .email-content-wrapper {
-    left: 20%;  /* يحركها لليسار */
-    transform: translate(0, -50%);  /* يلغي التوسيط الأفقي */
-  }
-}
-
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: auto;
+     max-width: 90%;
+     z-index: 141;
+   }
+   
+   @media (min-width: 769px) {
+     .email-content-wrapper {
+       left: 25%;
+       transform: translate(-50%, -50%);
+     }
+   }
+   
 .contact-message {
   font-size: 20px;
   font-weight: 700;
